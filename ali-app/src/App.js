@@ -1,25 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function App(){
+  return(
+    <>
 
-export default App;
+    <header>
+        <h1> پروژه ریکت </h1>
+        <nav>
+            <ul>
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">خدمات</a></li>
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+        </nav>
+    </header>
+<div>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   Illo odit, laborum ratione consequuntur cum atque quam illum 
+   cupiditate harum! Sit eaque porro veritatis
+   officiis minima inventore similique quidem aperiam quasi? </p>
+
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   Illo odit, laborum ratione consequuntur cum atque quam illum 
+   cupiditate harum! Sit eaque porro veritatis
+   officiis minima inventore similique quidem aperiam quasi? </p>
+
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   Illo odit, laborum ratione consequuntur cum atque quam illum 
+   cupiditate harum! Sit eaque porro veritatis
+   officiis minima inventore similique quidem aperiam quasi? </p>
+   </div>
+   
+   <button>سلام</button>
+ </>
+
+  ) 
+}
